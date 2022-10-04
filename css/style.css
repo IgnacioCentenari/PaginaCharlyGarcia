@@ -1,0 +1,1120 @@
+/* estilo inline> id> class>*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Gilda+Display&family=Manrope:wght@300;600;800&family=Ms+Madi&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{ 
+--old-lavender: #776472ff;
+--pale-silver: #cbb9a8ff;
+--russian-green: #5e8c61ff;
+--eerie-black: #1a1d1aff;
+--blue-sapphire: #006e90ff;
+}
+
+/*---------------HEADER-----------------------*/
+header{
+    background-color: #cbb9a8ff;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+header img{
+    width: 75px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+header h1{
+    color:#1a1d1aff;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    font-family: ms Madi;
+}
+
+header nav ul{
+    list-style: none;  
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+header nav ul li{
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 300;
+    font-family: manrope;
+    margin: 8px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #1a1d1aff;
+}
+
+/*---------------MAIN-----------------------*/
+
+main{
+    background-color: #1a1d1aff;
+}
+
+/*--------Index----------*/
+/*Marco donde comienza y termina el index ya que por una cuestion de organizacion hice el css de las otras paginas y bueno lo que pedia la act era de 1 y me gustaria saber que podria mejorar en la principal*/
+
+.hero{
+    background-image: url(../img/Charly\ \ Puchito.jpg);
+    width: 100%;
+    height: calc(100vh - 145px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero div{
+    color: #cbb9a8ff;
+    background-color: transparent;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 100px;
+    font-weight: 200;
+    text-align: center;  
+}
+
+.miniIndex{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.miniCuadro {
+    border: 3px solid #cbb9a8ff;
+    width: 250px;
+    box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
+}
+
+.miniCuadro img{
+    width: 244px;
+    height: 200px;
+    flex-wrap: wrap;
+}
+
+.miniCuadro p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+.miniResumen{
+    border: 3px solid #cbb9a8ff;
+    width: 500px;
+    height: 200px;
+    box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
+}
+
+.miniResumen h2{
+    background-color: #cbb9a8ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gilda Display;
+}
+
+.miniResumen p{
+    text-align: center;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: Manrope;
+    color: white;
+}
+
+/*------Fin Index-------------*/
+
+.titHistoria{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #cbb9a8ff;
+}
+
+.historia{
+    height: 2500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lineaDeTiempo {
+    max-width: 750px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    font-family: "Fira Sans", sans-serif;
+    color: #ffffff;
+}
+
+.lineaComponentes {
+    margin: 0 20px 20px 20px;
+}
+
+.lineaCuadro {
+    padding: 1.5em;
+    background: #1a1d1aff;
+    box-shadow: 0 0 5px #cbb9a8ff;
+    border-radius: 10px;
+}
+.lineaComponentesAbajo {
+    margin-bottom: 0;
+}
+.lineaMedio {
+    position: relative;
+    background: #cbb9a8ff;
+}
+
+.lineaPunto {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: #cbb9a8ff;
+    border-radius: 50%;
+}
+
+.lineaPuntoAbajo {
+    top: initial;
+    bottom: 0;
+}
+
+.lineaFecha{
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+.lineaFechaDer {
+    text-align: right;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+.lineaTitulo {
+    margin: 0;
+    font-size: 1.15em;
+    font-weight: bold;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #cbb9a8ff;
+}
+
+.lineaParrafo {
+    line-height: 1.5;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+.titDisco{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #cbb9a8ff;
+}
+
+.discografiaLayout{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    grid-row-gap: 2em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.disco1{
+    border: 2px solid #cbb9a8ff;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.disco1 h3{
+    background-color: #cbb9a8ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gilda Display;
+    color: #1a1d1aff;
+}
+
+.disco1 p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+.disco1 img{
+    width: 150px;
+    height: 150px;
+}
+
+.disco2{
+    border: 2px solid #cbb9a8ff;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.disco2 h3{
+    background-color: #cbb9a8ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gilda Display;
+    color: #1a1d1aff;
+}
+
+.disco2 p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+
+.disco2 img{
+    width: 150px;
+    height: 150px;
+}
+
+.disco3{
+    border: 2px solid #cbb9a8ff;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.disco3 h3{
+    background-color: #cbb9a8ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gilda Display;
+    color: #1a1d1aff;
+}
+
+.disco3 p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+.disco3 img{
+    width: 150px;
+    height: 150px;
+}
+
+.disco4{
+    border: 2px solid #cbb9a8ff;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+.disco4 h3{
+    background-color: #cbb9a8ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gilda Display;
+    color: #1a1d1aff;
+}
+
+.disco4 p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+.disco4 img{
+    width: 150px;
+    height: 150px;
+}
+
+.disco5{
+    border: 2px solid #cbb9a8ff;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+.disco5 h3{
+    background-color: #cbb9a8ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gilda Display;
+    color: #1a1d1aff;
+}
+
+.disco5 p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+.disco5 img{
+    width: 150px;
+    height: 150px;
+}
+
+.cancion1{
+    border:2px solid #cbb9a8ff;
+    width: 250px;
+    height: 300px;
+    float: left;
+    color: white;
+    background-color: #1a1d1aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    align-self: center;
+    justify-self: flex-end;
+}
+
+.cancion1 img{
+    width: 150px;
+    height: 150px;
+}
+
+.cancion1 h3{
+    background-color: #cbb9a8ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gilda Display;
+    color: #1a1d1aff;
+}
+
+.cancion1 p{
+    text-align: center;
+    font-size: 12px;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+.cancion2{
+    border:2px solid #cbb9a8ff;
+    width: 250px;
+    height: 300px;
+    float: right;
+    color: white;
+    background-color: #1a1d1aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    align-self: center;
+    justify-self: flex-start;
+}
+
+.cancion2 img{
+    width: 150px;
+    height: 150px;
+}
+
+.cancion2 h3{
+    background-color: #cbb9a8ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gilda Display;
+    color: #1a1d1aff;
+}
+
+.cancion2 p{
+    text-align: center;
+    font-size: 12px;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+.cancion3{
+    border:2px solid #cbb9a8ff;
+    width: 250px;
+    height: 300px;
+    float: left;
+    color: white;
+    background-color: #1a1d1aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    align-self: center;
+    justify-self: flex-end;
+}
+
+.cancion3 img{
+    width: 150px;
+    height: 150px;
+}
+
+.cancion3 h3{
+    background-color: #cbb9a8ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gilda Display;
+    color: #1a1d1aff;
+}
+
+.cancion3 p{
+    text-align: center;
+    font-size: 12px;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+.cancion4{
+    border:2px solid #cbb9a8ff;
+    width: 250px;
+    height: 300px;
+    float: right;
+    color: white;
+    background-color: #1a1d1aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    align-self: center;
+    justify-self: flex-start;
+}
+
+.cancion4 img{
+    width: 150px;
+    height: 150px;
+}
+
+.cancion4 h3{
+    background-color: #cbb9a8ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gilda Display;
+    color: #1a1d1aff;
+}
+
+.cancion4 p{
+    text-align: center;
+    font-size: 12px;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+.titAnecdotas{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #cbb9a8ff;
+}
+
+.anecdotas{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.anec1{
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    border: 2px solid #cbb9a8ff;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.anec1 h3{
+    background-color: #cbb9a8ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gilda Display;
+    color: #1a1d1aff;
+}
+
+.anec1 p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+.anec1 img{
+    width: 300px;
+    height: 200px;
+}
+
+.anec2{
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    border: 2px solid #cbb9a8ff;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.anec2 h3{
+    background-color: #cbb9a8ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gilda Display;
+    color: #1a1d1aff;
+}
+
+.anec2 p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+.anec2 img{
+    width:250px;
+    height: 250px;
+}
+
+.anec3{
+    width: 600px;
+    height: 700px;
+    text-align: center;
+    border: 2px solid #cbb9a8ff;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.anec3 h3{
+    background-color: #cbb9a8ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gilda Display;
+    color: #1a1d1aff;
+}
+
+.anec3 p{
+    text-align: center;
+    font-size: 15px;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+.anec3 img{
+    width: 300px;
+    height: 200px;
+}
+
+.titRecom{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #cbb9a8ff;
+}
+
+.recomendacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reco1{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    border: 2px solid #cbb9a8ff;
+    color: white;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reco1 img{
+    width: 200px;
+    height: 200px;
+}
+
+.reco1 h3{
+    background-color: #cbb9a8ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gilda Display;
+    color: #1a1d1aff;
+}
+
+.reco1 p{
+    text-align: center;
+    font-size: 15px;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+.reco2{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    border: 2px solid #cbb9a8ff;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.reco2 h3{
+    background-color: #cbb9a8ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gilda Display;
+    color: #1a1d1aff;
+}
+
+.reco2 p{
+    text-align: center;
+    font-size: 15px;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+.reco3{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    border: 2px solid #cbb9a8ff;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.reco3 h3{
+    background-color: #cbb9a8ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gilda Display;
+    color: #1a1d1aff;
+}
+
+.reco3 p{
+    text-align: center;
+    font-size: 15px;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
+
+/*---------------FOOTER-----------------------*/
+footer a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: #1a1d1aff;
+}
+
+footer a img{
+    width: 20px;
+    height: 20px;
+}
+
+footer p{
+    color: #1a1d1aff;
+}
+
+.footer{
+    background-color: #cbb9a8ff;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*----------Media------------------*/
+
+@media screen and (max-width: 1024px){
+    .discografiaLayout{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:978px){
+    .hero div{
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width:890px){
+    
+    .hero{
+        height: 600px;
+    }
+
+    header{
+        height: 100px;
+    }
+
+    header img{
+        width: 50px;
+        height: 75px;
+    }
+
+    header h1{
+        font-size: 35px;
+    }
+
+    header nav ul li{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:782px) {
+    .hero div{
+        font-size: 60px;
+    }
+
+    .miniIndex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .miniCuadro{
+        height: 280px;
+        margin-bottom: 30px;
+    }
+
+    .miniCuadro p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:749px){
+
+    header img{
+        width: 35px;
+        height: 50px;
+    }
+
+    header h1{
+        font-size: 30px;
+    }
+
+    header nav ul li{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:742px){
+    .historia{
+        height: 2600px;
+    }
+}
+
+@media screen and (max-width:720px){
+    .historia{
+        height: 2800px;
+    }
+}
+
+@media screen and (max-width:672px) {
+    .historia{
+        height: 3000px;
+    }
+}
+
+@media screen and (max-width:664px){
+    
+    header img{
+        width: 25px;
+        height: 40px;
+    }
+
+    header h1{
+        font-size: 25px;
+    }
+
+    header nav ul li{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .historia{
+        height: 3300px;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .titRecom{
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width:599px) {
+    .anecdotas div{
+        width: 500px;
+    }
+    .anecdotas div p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:597px) {
+    .historia{
+        height: 3600px;
+    }
+}
+
+@media screen and (max-width:587px){
+    
+    header{
+        height: 75px;
+    }
+
+    .hero div{
+        font-size: 40px;
+    }
+    header img{
+        width: 20px;
+        height: 35px;
+    }
+
+    header h1{
+        font-size: 20px;
+    }
+
+    header nav ul li{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:563px) {
+    .historia{
+        height: 3800px;
+    }
+}
+
+@media screen and (max-width:544px) {
+    .historia{
+        height: 4000px;
+    }
+}
+
+@media screen and (max-width:522px) {
+    .historia{
+        height: 4200px;
+    }
+}
+
+@media screen and (max-width:511px) {
+    .historia{
+        height: 4600px;
+    }
+}
+
+@media screen and (max-width:510px){
+
+    header h1{
+        font-size: 16px;
+    }
+
+    header nav ul li{
+        font-size: 10px;
+    }
+
+    .miniIndex{
+        height: 800px;
+    }
+
+    .miniResumen{
+        height: 300px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:499px) {
+    .anecdotas div{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:496px) {
+    .titRecom{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .historia{
+        height: 5000px;
+    }
+}
+
+@media screen and (max-width:467px) {
+    .historia{
+        height: 5400px;
+    }
+}
+
+@media screen and (max-width:447px) {
+    .historia{
+        height: 5800px;
+    }
+}
+
+@media screen and (max-width:441px){
+    .footer{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;    }
+}
+
+@media screen and (max-width:433px) {
+    .historia{
+        height: 6200px;
+    }
+}
+
+@media screen and (max-width:423px) {
+    .lineaDeTiempo{
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width:399px) {
+    .anecdotas div{
+        width: 300px;
+    }
+
+    .anecdotas div h3{
+        font-size: 25px;
+    }
+    
+    .anecdotas div img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .anec3{
+        height: 850px;
+    }
+
+    .recomendacion div{
+        width: 330px;
+    }
+}
+
+@media screen and (max-width:391px){
+    
+    header nav ul li{
+        font-size: 8px;
+    }
+
+    .hero div{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:378px) {
+    .lineaComponentes{
+        margin: 0 15px 15px 15px;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .lineaDeTiempo{
+        padding:0;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:377px) {
+    
+}
+
+@media screen and (max-width:376px) {
+    .historia{
+        width: 100vw;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:372px) {
+    .titRecom{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:353px) {
+    .titAnecdotas{
+        font-size: 80px;
+    }
+}
