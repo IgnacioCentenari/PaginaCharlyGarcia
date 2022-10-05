@@ -560,6 +560,44 @@ main{
     color: white;
 }
 
+.cancion5{
+    border:2px solid #cbb9a8ff;
+    width: 250px;
+    height: 300px;
+    float: right;
+    color: white;
+    background-color: #1a1d1aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    align-self: center;
+    justify-self: flex-end;
+}
+
+.cancion5 img{
+    width: 150px;
+    height: 150px;
+}
+
+.cancion5 h3{
+    background-color: #cbb9a8ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gilda Display;
+    color: #1a1d1aff;
+}
+
+.cancion5 p{
+    text-align: center;
+    font-size: 12px;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white;
+}
+
 .titAnecdotas{
     text-align: center;
     font-size: 100px;
@@ -997,6 +1035,44 @@ footer p{
     }
 }
 
+@media screen and (max-width: 500px){
+    .disco1{
+        width: 400px;
+        height: 300px;
+    }
+    .disco1 p{
+        font-size: 15px;
+    }
+    .disco2{
+        width: 400px;
+        height: 300px;
+    }
+    .disco2 p{
+        font-size: 15px;
+    }
+    .disco3{
+        width: 400px;
+        height: 300px;
+    }
+    .disco3 p{
+        font-size: 15px;
+    }
+    .disco4{
+        width: 400px;
+        height: 300px;
+    }
+    .disco4 p{
+        font-size: 15px;
+    }
+    .disco5{
+        width: 400px;
+        height: 350px;
+    }
+    .disco5 p{
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width:499px) {
     .anecdotas div{
         width: 400px;
@@ -1048,6 +1124,64 @@ footer p{
     }
 }
 
+@media screen and (max-width:400px){
+    .disco1{
+        width: 350px;
+        height: 250px;
+    }
+    .disco1 p{
+        font-size: 12px;
+    }
+    .disco1 img{
+        width: 125px;
+        height: 125px;
+    }
+    .disco2{
+        width: 350px;
+        height: 250px;
+    }
+    .disco2 p{
+        font-size: 12px;
+    }
+    .disco2 img{
+        width: 125px;
+        height: 125px;
+    }
+    .disco3{
+        width: 350px;
+        height: 250px;
+    }
+    .disco3 p{
+        font-size: 12px;
+    }
+    .disco3 img{
+        width: 125px;
+        height: 125px;
+    }
+    .disco4{
+        width: 350px;
+        height: 300px;
+    }
+    .disco4 p{
+        font-size: 12px;
+    }
+    .disco4 img{
+        width: 125px;
+        height: 125px;
+    }
+    .disco5{
+        width: 350px;
+        height: 300px;
+    }
+    .disco5 p{
+        font-size: 12px;
+    }
+    .disco5 img{
+        width: 125px;
+        height: 125px;
+    }
+}
+
 @media screen and (max-width:399px) {
     .anecdotas div{
         width: 300px;
@@ -1071,7 +1205,7 @@ footer p{
     }
 }
 
-@media screen and (max-width:391px){
+@media screen and (max-width:392px){
     
     header nav ul li{
         font-size: 8px;
@@ -1079,6 +1213,12 @@ footer p{
 
     .hero div{
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width:384px){
+    .titDisco{
+        font-size: 80px;
     }
 }
 
