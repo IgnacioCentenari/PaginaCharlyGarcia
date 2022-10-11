@@ -29,6 +29,11 @@ header{
     display: flex;
     justify-content:flex-start;
     align-items: center;
+    transition: 0.2s;
+}
+
+.logo:hover{
+    transform: scale(1.10);
 }
 
 header img{
@@ -57,11 +62,16 @@ header nav ul li{
     font-weight: 300;
     font-family: manrope;
     margin: 8px;
+    transition: 0.2s;
 }
 
 header nav ul li a{
     text-decoration: none;
     color: #1a1d1aff;
+}
+
+header nav ul li:hover{
+transform: scale(1.15);
 }
 
 /*---------------MAIN-----------------------*/
@@ -108,6 +118,11 @@ main{
     box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
     -webkit-box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
     -moz-box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
+    transition: 1s;
+}
+
+.miniCuadro:hover{
+    transform: scale(1.10);
 }
 
 .miniCuadro img{
@@ -131,6 +146,11 @@ main{
     box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
     -webkit-box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
     -moz-box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
+    transition: 1s;
+}
+
+.miniResumen:hover{
+    transform: scale(1.10);
 }
 
 .miniResumen h2{
@@ -182,7 +202,13 @@ main{
     background: #1a1d1aff;
     box-shadow: 0 0 5px #cbb9a8ff;
     border-radius: 10px;
+    transition: 1s;
 }
+
+.lineaCuadro:hover{
+    transform: scale(1.05);
+}
+
 .lineaComponentesAbajo {
     margin-bottom: 0;
 }
@@ -260,6 +286,9 @@ main{
     color: white;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
 }
 
 .disco1 h3{
@@ -291,6 +320,9 @@ main{
     color: white;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
 }
 
 .disco2 h3{
@@ -323,6 +355,9 @@ main{
     color: white;
     grid-column: 2 / 3;
     grid-row: 3 / 4;
+    box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
 }
 
 .disco3 h3{
@@ -354,6 +389,9 @@ main{
     color: white;
     grid-column: 2 / 3;
     grid-row: 4 / 5;
+    box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
 }
 
 .disco4 h3{
@@ -385,6 +423,9 @@ main{
     color: white;
     grid-column: 2 / 3;
     grid-row: 5 / 6;
+    box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
 }
 
 .disco5 h3{
@@ -423,6 +464,14 @@ main{
     grid-row: 1 / 2;
     align-self: center;
     justify-self: flex-end;
+    box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+    transition: 1s;
+}
+
+.cancion1:hover{
+    transform: scale(1.25);
 }
 
 .cancion1 img{
@@ -461,6 +510,14 @@ main{
     grid-row: 2 / 3;
     align-self: center;
     justify-self: flex-start;
+    box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+    transition: 1s;
+}
+
+.cancion2:hover{
+    transform: scale(1.25);
 }
 
 .cancion2 img{
@@ -499,6 +556,14 @@ main{
     grid-row: 3 / 4;
     align-self: center;
     justify-self: flex-end;
+    box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+    transition: 1s;
+}
+
+.cancion3:hover{
+    transform: scale(1.25);
 }
 
 .cancion3 img{
@@ -537,6 +602,14 @@ main{
     grid-row: 4 / 5;
     align-self: center;
     justify-self: flex-start;
+    box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+    transition: 1s;
+}
+
+.cancion4:hover{
+    transform: scale(1.25);
 }
 
 .cancion4 img{
@@ -575,6 +648,14 @@ main{
     grid-row: 5 / 6;
     align-self: center;
     justify-self: flex-end;
+    box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+    transition: 1s;
+}
+
+.cancion5:hover{
+    transform: scale(1.25);
 }
 
 .cancion5 img{
@@ -619,6 +700,11 @@ main{
     border: 2px solid #cbb9a8ff;
     color: white;
     margin-bottom: 50px;
+    transition: 1s;
+}
+
+.anec1:hover{
+    transform: scale(1.05);
 }
 
 .anec1 h3{
@@ -649,6 +735,11 @@ main{
     border: 2px solid #cbb9a8ff;
     color: white;
     margin-bottom: 50px;
+    transition: 1s;
+}
+
+.anec2:hover{
+    transform: scale(1.05);
 }
 
 .anec2 h3{
@@ -679,6 +770,11 @@ main{
     border: 2px solid #cbb9a8ff;
     color: white;
     margin-bottom: 50px;
+    transition: 1s;
+}
+
+.anec3:hover{
+    transform: scale(1.05);
 }
 
 .anec3 h3{
@@ -727,6 +823,11 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: 1s;
+}
+
+.reco1:hover{
+    transform: scale(1.05);
 }
 
 .reco1 img{
@@ -757,6 +858,11 @@ main{
     border: 2px solid #cbb9a8ff;
     color: white;
     margin-bottom: 50px;
+    transition: 1s;
+}
+
+.reco2:hover{
+    transform: scale(1.05);
 }
 
 .reco2 h3{
@@ -782,6 +888,11 @@ main{
     border: 2px solid #cbb9a8ff;
     color: white;
     margin-bottom: 50px;
+    transition: 1s;
+}
+
+.reco3:hover{
+    transform: scale(1.05);
 }
 
 .reco3 h3{
@@ -809,6 +920,7 @@ footer a{
     align-items: center;
     flex-direction: column;
     color: #1a1d1aff;
+    transition: 0.3s;
 }
 
 footer a img{
@@ -826,6 +938,10 @@ footer p{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+footer a:hover{
+    transform: scale(1.25);
 }
 
 /*----------Media------------------*/
