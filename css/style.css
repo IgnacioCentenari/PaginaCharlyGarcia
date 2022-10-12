@@ -70,11 +70,6 @@ header nav ul li a{
     color: #1a1d1aff;
 }
 
-header nav ul li:hover{
-transform: scale(1.15);
-
-}
-
 /*---------------MAIN-----------------------*/
 
 main{
@@ -106,10 +101,6 @@ main{
     text-shadow: 1px 1px 2px black;
 }
 
-.carousel-caption{
-    align-self: center;
-}
-
 .miniIndex{
     height: 400px;
     display: flex;
@@ -124,10 +115,6 @@ main{
     -webkit-box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
     -moz-box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
     transition: 1s;
-}
-
-.miniCuadro:hover{
-    transform: scale(1.10);
 }
 
 .miniCuadro img{
@@ -152,10 +139,6 @@ main{
     -webkit-box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
     -moz-box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
     transition: 1s;
-}
-
-.miniResumen:hover{
-    transform: scale(1.10);
 }
 
 .miniResumen h2{
@@ -208,10 +191,6 @@ main{
     box-shadow: 0 0 5px #cbb9a8ff;
     border-radius: 10px;
     transition: 1s;
-}
-
-.lineaCuadro:hover{
-    transform: scale(1.05);
 }
 
 .lineaComponentesAbajo {
@@ -475,10 +454,6 @@ main{
     transition: 1s;
 }
 
-.cancion1:hover{
-    transform: scale(1.25);
-}
-
 .cancion1 img{
     width: 150px;
     height: 150px;
@@ -519,10 +494,6 @@ main{
     -webkit-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
     -moz-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
     transition: 1s;
-}
-
-.cancion2:hover{
-    transform: scale(1.25);
 }
 
 .cancion2 img{
@@ -567,10 +538,6 @@ main{
     transition: 1s;
 }
 
-.cancion3:hover{
-    transform: scale(1.25);
-}
-
 .cancion3 img{
     width: 150px;
     height: 150px;
@@ -613,10 +580,6 @@ main{
     transition: 1s;
 }
 
-.cancion4:hover{
-    transform: scale(1.25);
-}
-
 .cancion4 img{
     width: 150px;
     height: 150px;
@@ -657,10 +620,6 @@ main{
     -webkit-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
     -moz-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
     transition: 1s;
-}
-
-.cancion5:hover{
-    transform: scale(1.25);
 }
 
 .cancion5 img{
@@ -708,10 +667,6 @@ main{
     transition: 1s;
 }
 
-.anec1:hover{
-    transform: scale(1.05);
-}
-
 .anec1 h3{
     background-color: #cbb9a8ff;
     font-size: 30px;
@@ -743,10 +698,6 @@ main{
     transition: 1s;
 }
 
-.anec2:hover{
-    transform: scale(1.05);
-}
-
 .anec2 h3{
     background-color: #cbb9a8ff;
     font-size: 30px;
@@ -776,10 +727,6 @@ main{
     color: white;
     margin-bottom: 50px;
     transition: 1s;
-}
-
-.anec3:hover{
-    transform: scale(1.05);
 }
 
 .anec3 h3{
@@ -831,10 +778,6 @@ main{
     transition: 1s;
 }
 
-.reco1:hover{
-    transform: scale(1.05);
-}
-
 .reco1 img{
     width: 200px;
     height: 200px;
@@ -866,10 +809,6 @@ main{
     transition: 1s;
 }
 
-.reco2:hover{
-    transform: scale(1.05);
-}
-
 .reco2 h3{
     background-color: #cbb9a8ff;
     font-size: 30px;
@@ -894,10 +833,6 @@ main{
     color: white;
     margin-bottom: 50px;
     transition: 1s;
-}
-
-.reco3:hover{
-    transform: scale(1.05);
 }
 
 .reco3 h3{
@@ -950,6 +885,69 @@ footer a:hover{
 }
 
 /*----------Media------------------*/
+
+@media screen and (min-width: 1024px){
+    
+    header nav ul li:hover{
+        transform: scale(1.15);
+    }
+    
+    .miniCuadro:hover{
+        transform: scale(1.10);
+    }
+
+    .miniResumen:hover{
+        transform: scale(1.10);
+    }
+
+    .lineaCuadro:hover{
+        transform: scale(1.05);
+    }
+
+    .cancion1:hover{
+        transform: scale(1.25);
+    }
+
+    .cancion2:hover{
+        transform: scale(1.25);
+    }
+
+    .cancion3:hover{
+        transform: scale(1.25);
+    }
+
+    .cancion4:hover{
+        transform: scale(1.25);
+    }
+
+    .cancion5:hover{
+        transform: scale(1.25);
+    }
+
+    .anec1:hover{
+        transform: scale(1.05);
+    }
+    
+    .anec2:hover{
+        transform: scale(1.05);
+    }
+    
+    .anec3:hover{
+        transform: scale(1.05);
+    }
+    
+    .reco1:hover{
+        transform: scale(1.05);
+    }
+
+    .reco2:hover{
+        transform: scale(1.05);
+    }
+
+    .reco3:hover{
+        transform: scale(1.05);
+    }
+}
 
 @media screen and (max-width: 1024px){
     .discografiaLayout{
