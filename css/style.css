@@ -72,6 +72,7 @@ header nav ul li a{
 
 header nav ul li:hover{
 transform: scale(1.15);
+
 }
 
 /*---------------MAIN-----------------------*/
@@ -89,7 +90,6 @@ main{
     height: calc(100vh - 145px);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
     background-attachment: fixed;
     display: flex;
     justify-content: center;
@@ -102,7 +102,12 @@ main{
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 100px;
     font-weight: 200;
-    text-align: center;  
+    text-align: center; 
+    text-shadow: 1px 1px 2px black;
+}
+
+.carousel-caption{
+    align-self: center;
 }
 
 .miniIndex{
