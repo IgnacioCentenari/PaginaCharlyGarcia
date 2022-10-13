@@ -852,6 +852,34 @@ main{
     color: white;
 }
 
+.formContacto{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formContacto h2{
+    text-align: center;
+    font-size: 13vh;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #cbb9a8ff;
+    text-shadow: 1px 1px 2px white;
+}
+
+.formContacto label{
+    color: #cbb9a8ff;
+    font-family: Manrope;
+    border-radius: 5%;
+}
+
+.formContacto h3{
+    text-align: center;
+    font-size: 3vh;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #cbb9a8ff;
+}
 
 /*---------------FOOTER-----------------------*/
 footer a{
@@ -881,10 +909,6 @@ footer p{
     align-items: center;
 }
 
-footer a:hover{
-    transform: scale(1.25);
-}
-
 /*----------Media------------------*/
 
 @media screen and (min-width: 1024px){
@@ -893,6 +917,10 @@ footer a:hover{
         transform: scale(1.15);
     }
     
+    header nav ul li a:hover{
+        color: #1a1d1aff;
+    }
+
     .miniCuadro:hover{
         transform: scale(1.10);
     }
@@ -947,6 +975,11 @@ footer a:hover{
 
     .reco3:hover{
         transform: scale(1.05);
+    }
+
+    footer a:hover{
+        transform: scale(1.25);
+        color: #1a1d1aff;
     }
 }
 
