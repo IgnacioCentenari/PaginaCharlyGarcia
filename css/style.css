@@ -1044,6 +1044,16 @@ footer p{
     }
 }
 
+@media screen and (max-width: 762px) {
+    .formContacto{
+        height: 80vh;
+    }
+
+    .formContacto h2{
+        font-size: 10vh;
+    }
+}
+
 @media screen and (max-width:749px){
 
     header img{
@@ -1156,6 +1166,16 @@ footer p{
     }
 }
 
+@media screen and (max-width:530px) {
+    .footer{
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width:522px) {
     .historia{
         height: 4200px;
@@ -1258,11 +1278,15 @@ footer p{
 
 @media screen and (max-width:441px){
     .footer{
-        height: 200px;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;    }
+        flex-direction: column;    
+    }
+
+    ol, ul {
+        padding-left: 0;
+    }
 }
 
 @media screen and (max-width:433px) {
@@ -1271,9 +1295,21 @@ footer p{
     }
 }
 
+@media screen and (max-width:424px) {
+    nav{
+        width: 300px;
+    }
+}
+
 @media screen and (max-width:423px) {
     .lineaDeTiempo{
         width: 100vw;
+    }
+}
+
+@media screen and (max-width:406px) {
+    header nav ul li{
+        font-size: 8px;
     }
 }
 
@@ -1359,11 +1395,6 @@ footer p{
 }
 
 @media screen and (max-width:392px){
-    
-    header nav ul li{
-        font-size: 8px;
-    }
-
     .hero div{
         font-size: 30px;
     }
@@ -1381,18 +1412,20 @@ footer p{
     }
 }
 
+@media screen and (max-width:377px) {
+    .formContacto h2{
+        width: 330px;
+    }
+    nav{
+        width: 280px;
+    }
+}
+
 @media screen and (max-width:376px) {
     .lineaDeTiempo{
         padding:0;
         justify-content: center;
     }
-}
-
-@media screen and (max-width:377px) {
-    
-}
-
-@media screen and (max-width:376px) {
     .historia{
         width: 100vw;
         flex-direction: column;
