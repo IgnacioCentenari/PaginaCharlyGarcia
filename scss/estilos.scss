@@ -1,0 +1,750 @@
+header{
+    background-color: #cbb9a8ff;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    .logo{
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        transition: 0.2s;
+        a{
+            img{
+            width: 75px;
+            height: 100px;
+            margin-right: 10px;
+            }
+        }
+        h1{
+            color:#1a1d1aff;
+            font-size: 50px;
+            font-style: italic;
+            font-weight: 400;
+            font-family: ms Madi;
+        }
+    }
+    nav{
+        ul{
+            list-style: none;  
+            display: flex;
+            justify-content:flex-end;
+            align-items: center;
+            li{
+                font-size: 20px;
+                font-style: oblique;
+                font-weight: 300;
+                font-family: manrope;
+                margin: 8px;
+                transition: 0.2s;
+                a{
+                    text-decoration: none;
+                    color: #1a1d1aff;
+                }
+            }
+        }
+    }
+}
+/*Todo esto de arriba es el header*/
+main{
+    .hero{
+        /*background-image: url(../img/Charly\ \ Puchito.jpg);*/
+        width: 100%;
+        height: calc(100vh - 145px);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div{
+            color: #cbb9a8ff;
+            background-color: transparent;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 100px;
+            font-weight: 200;
+            text-align: center; 
+            text-shadow: 1px 1px 2px black;
+        }
+    }
+    .miniIndex{
+        height: 400px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .miniCuadro {
+            border: 3px solid #cbb9a8ff;
+            width: 250px;
+            box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
+            -webkit-box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
+            -moz-box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
+            transition: 1s;
+            img{
+                width: 244px;
+                height: 200px;
+                flex-wrap: wrap;
+            }
+            p{
+                text-align: center;
+                font-size: 20px;
+                font-family: Manrope;
+                font-style: oblique;
+                color: white;
+            }
+        }
+    }
+    .miniResumen{
+        border: 3px solid #cbb9a8ff;
+        width: 500px;
+        height: 200px;
+        box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
+        -webkit-box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
+        -moz-box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
+        transition: 1s;
+        h2{
+            background-color: #cbb9a8ff;
+            font-size: 30px;
+            text-align: center;
+            font-family: Gilda Display;
+        }
+        p{
+            text-align: center;
+            font-size: 15px;
+            font-style: oblique;
+            font-family: Manrope;
+            color: white;
+        }
+    }
+}
+/*Main de la pagina index*/
+.titHistoria{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #cbb9a8ff;
+}
+.historia{
+    height: 2500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .lineaDeTiempo {
+        max-width: 750px;
+        padding: 25px;
+        display: grid;
+        grid-template-columns: 1fr 3px 1fr;
+        font-family: "Fira Sans", sans-serif;
+        color: #ffffff;
+
+    }
+}
+
+/*Main de la pagina historia*/
+
+div{
+    .titDisco{
+        text-align: center;
+        font-size: 100px;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: #cbb9a8ff;
+    }
+}
+.discografiaLayout{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    grid-row-gap: 2em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    .disco1{
+        border: 2px solid #cbb9a8ff;
+        width: 500px;
+        height: 400px;
+        text-align: center;
+        color: white;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+        -webkit-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+        -moz-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+        .disco1 h3{
+            background-color: #cbb9a8ff;
+            font-size: 30px;
+            text-align: center;
+            font-family: Gilda Display;
+            color: #1a1d1aff;
+        }
+        .disco1 p{
+            text-align: center;
+            font-size: 20px;
+            font-family: Manrope;
+            font-style: oblique;
+            color: white;
+        }
+        .disco1 img{
+            width: 150px;
+            height: 150px;
+        }
+    }
+    .cancion1{
+        border:2px solid #cbb9a8ff;
+        width: 250px;
+        height: 300px;
+        float: left;
+        color: white;
+        background-color: #1a1d1aff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        align-self: center;
+        justify-self: flex-end;
+        box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+        -webkit-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+        -moz-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+        transition: 1s;
+        a{
+            .cancion1 img{
+                width: 150px;
+                height: 150px;
+            }
+        }
+        .cancion1 h3{
+            background-color: #cbb9a8ff;
+            font-size: 30px;
+            text-align: center;
+            font-family: Gilda Display;
+            color: #1a1d1aff;
+        }
+        .cancion1 p{
+            text-align: center;
+            font-size: 12px;
+            font-family: Manrope;
+            font-style: oblique;
+            color: white;
+        }
+    }
+    .disco2{
+        border: 2px solid #cbb9a8ff;
+        width: 500px;
+        height: 400px;
+        text-align: center;
+        color: white;
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+        -webkit-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+        -moz-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+        .disco2 h3{
+            background-color: #cbb9a8ff;
+            font-size: 30px;
+            text-align: center;
+            font-family: Gilda Display;
+            color: #1a1d1aff;
+        }
+        .disco2 p{
+            text-align: center;
+            font-size: 20px;
+            font-family: Manrope;
+            font-style: oblique;
+            color: white;
+        }
+        .disco2 img{
+            width: 150px;
+            height: 150px;
+        }
+    }
+    .cancion2{
+        border:2px solid #cbb9a8ff;
+        width: 250px;
+        height: 300px;
+        float: right;
+        color: white;
+        background-color: #1a1d1aff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        align-self: center;
+        justify-self: flex-start;
+        box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+        -webkit-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+        -moz-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+        transition: 1s;
+        a{
+            .cancion2 img{
+                width: 150px;
+                height: 150px;
+            }
+        }
+        .cancion2 h3{
+            background-color: #cbb9a8ff;
+            font-size: 30px;
+            text-align: center;
+            font-family: Gilda Display;
+            color: #1a1d1aff;
+        }
+        .cancion2 p{
+            text-align: center;
+            font-size: 12px;
+            font-family: Manrope;
+            font-style: oblique;
+            color: white;
+        }
+    }
+    .disco3{
+        border: 2px solid #cbb9a8ff;
+        width: 500px;
+        height: 400px;
+        text-align: center;
+        color: white;
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+        box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+        -webkit-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+        -moz-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+        .disco3 h3{
+            background-color: #cbb9a8ff;
+            font-size: 30px;
+            text-align: center;
+            font-family: Gilda Display;
+            color: #1a1d1aff;
+        }
+        .disco3 p{
+            text-align: center;
+            font-size: 20px;
+            font-family: Manrope;
+            font-style: oblique;
+            color: white;
+        }
+        .disco3 img{
+            width: 150px;
+            height: 150px;
+        }
+    }
+    .cancion3{
+        border:2px solid #cbb9a8ff;
+        width: 250px;
+        height: 300px;
+        float: left;
+        color: white;
+        background-color: #1a1d1aff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        align-self: center;
+        justify-self: flex-end;
+        box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+        -webkit-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+        -moz-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+        transition: 1s;
+        a{
+            .cancion3 img{
+                width: 150px;
+                height: 150px;
+            }
+        }
+        .cancion3 h3{
+            background-color: #cbb9a8ff;
+            font-size: 30px;
+            text-align: center;
+            font-family: Gilda Display;
+            color: #1a1d1aff;
+        }
+        .cancion3 p{
+            text-align: center;
+            font-size: 12px;
+            font-family: Manrope;
+            font-style: oblique;
+            color: white;
+        }
+    }
+    .disco4{
+        border: 2px solid #cbb9a8ff;
+        width: 500px;
+        height: 400px;
+        text-align: center;
+        color: white;
+        grid-column: 2 / 3;
+        grid-row: 4 / 5;
+        box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+        -webkit-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+        -moz-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+        .disco4 h3{
+            background-color: #cbb9a8ff;
+            font-size: 30px;
+            text-align: center;
+            font-family: Gilda Display;
+            color: #1a1d1aff;
+        }
+        .disco4 p{
+            text-align: center;
+            font-size: 20px;
+            font-family: Manrope;
+            font-style: oblique;
+            color: white;
+        }
+        .disco4 img{
+            width: 150px;
+            height: 150px;
+        }
+    }
+    .cancion4{
+        border:2px solid #cbb9a8ff;
+        width: 250px;
+        height: 300px;
+        float: right;
+        color: white;
+        background-color: #1a1d1aff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        grid-column: 3 / 4;
+        grid-row: 4 / 5;
+        align-self: center;
+        justify-self: flex-start;
+        box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+        -webkit-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+        -moz-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+        transition: 1s;
+        a{
+            .cancion4 img{
+                width: 150px;
+                height: 150px;
+            }
+        }
+        .cancion4 h3{
+            background-color: #cbb9a8ff;
+            font-size: 30px;
+            text-align: center;
+            font-family: Gilda Display;
+            color: #1a1d1aff;
+        }
+        .cancion4 p{
+            text-align: center;
+            font-size: 12px;
+            font-family: Manrope;
+            font-style: oblique;
+            color: white;
+        }
+    }
+    .disco5{
+        border: 2px solid #cbb9a8ff;
+        width: 500px;
+        height: 400px;
+        text-align: center;
+        color: white;
+        grid-column: 2 / 3;
+        grid-row: 5 / 6;
+        box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+        -webkit-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+        -moz-box-shadow: 5px 6px 0px 0px rgba(255,255,255,0.75);
+        .disco5 h3{
+            background-color: #cbb9a8ff;
+            font-size: 30px;
+            text-align: center;
+            font-family: Gilda Display;
+            color: #1a1d1aff;
+        }
+        .disco5 p{
+            text-align: center;
+            font-size: 20px;
+            font-family: Manrope;
+            font-style: oblique;
+            color: white;
+        }
+        .disco5 img{
+            width: 150px;
+            height: 150px;
+        }
+    }
+    .cancion5{
+        border:2px solid #cbb9a8ff;
+        width: 250px;
+        height: 300px;
+        float: right;
+        color: white;
+        background-color: #1a1d1aff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+        align-self: center;
+        justify-self: flex-end;
+        box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+        -webkit-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+        -moz-box-shadow: -5px 6px 0px 0px rgba(255,255,255,0.75);
+        transition: 1s;
+        a{
+            .cancion5 img{
+                width: 150px;
+                height: 150px;
+            }
+        }
+        .cancion5 h3{
+            background-color: #cbb9a8ff;
+            font-size: 30px;
+            text-align: center;
+            font-family: Gilda Display;
+            color: #1a1d1aff;
+        }
+    }
+    .cancion5 p{
+        text-align: center;
+        font-size: 12px;
+        font-family: Manrope;
+        font-style: oblique;
+        color: white;
+    }
+}
+
+/*Main de la pagina discografia*/
+
+.titAnecdotas{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #cbb9a8ff;
+}
+.anecdotas{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    .anec1{
+        width: 600px;
+        height: 500px;
+        text-align: center;
+        border: 2px solid #cbb9a8ff;
+        color: white;
+        margin-bottom: 50px;
+        transition: 1s;
+        .anec1 h3{
+            background-color: #cbb9a8ff;
+            font-size: 30px;
+            text-align: center;
+            font-family: Gilda Display;
+            color: #1a1d1aff;
+        }
+        .anec1 p{
+            text-align: center;
+            font-size: 20px;
+            font-family: Manrope;
+            font-style: oblique;
+            color: white;
+        }
+        .anec1 img{
+            width: 300px;
+            height: 200px;
+        }
+    }
+    .anec2{
+        width: 600px;
+        height: 500px;
+        text-align: center;
+        border: 2px solid #cbb9a8ff;
+        color: white;
+        margin-bottom: 50px;
+        transition: 1s;
+        .anec2 h3{
+            background-color: #cbb9a8ff;
+            font-size: 30px;
+            text-align: center;
+            font-family: Gilda Display;
+            color: #1a1d1aff;
+        }
+        .anec2 p{
+            text-align: center;
+            font-size: 20px;
+            font-family: Manrope;
+            font-style: oblique;
+            color: white;
+        }
+        .anec2 img{
+            width:250px;
+            height: 250px;
+        }
+    }
+    .anec3{
+        width: 600px;
+        height: 700px;
+        text-align: center;
+        border: 2px solid #cbb9a8ff;
+        color: white;
+        margin-bottom: 50px;
+        transition: 1s;
+        .anec3 h3{
+            background-color: #cbb9a8ff;
+            font-size: 30px;
+            text-align: center;
+            font-family: Gilda Display;
+            color: #1a1d1aff;
+        }
+        .anec3 p{
+            text-align: center;
+            font-size: 15px;
+            font-family: Manrope;
+            font-style: oblique;
+            color: white;
+        }
+        .anec3 img{
+            width: 300px;
+            height: 200px;
+        }
+    }
+}
+/*Main de la pagina anecdotas*/
+
+.titRecom{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #cbb9a8ff;
+}
+.recomendacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .reco1{
+        text-align: center;
+        height: 400px;
+        width: 400px;
+        border: 2px solid #cbb9a8ff;
+        color: white;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transition: 1s;
+        .reco1 img{
+            width: 200px;
+            height: 200px;
+        }
+        .reco1 h3{
+            background-color: #cbb9a8ff;
+            font-size: 30px;
+            text-align: center;
+            font-family: Gilda Display;
+            color: #1a1d1aff;
+        }
+        .reco1 p{
+            text-align: center;
+            font-size: 15px;
+            font-family: Manrope;
+            font-style: oblique;
+            color: white;
+        }
+    }
+    .reco2{
+        text-align: center;
+        height: 400px;
+        width: 400px;
+        border: 2px solid #cbb9a8ff;
+        color: white;
+        margin-bottom: 50px;
+        transition: 1s;
+        .reco2 h3{
+            background-color: #cbb9a8ff;
+            font-size: 30px;
+            text-align: center;
+            font-family: Gilda Display;
+            color: #1a1d1aff;
+        }
+        .reco2 p{
+            text-align: center;
+            font-size: 15px;
+            font-family: Manrope;
+            font-style: oblique;
+            color: white;
+        }
+    }
+    .reco3{
+        text-align: center;
+        height: 400px;
+        width: 400px;
+        border: 2px solid #cbb9a8ff;
+        color: white;
+        margin-bottom: 50px;
+        transition: 1s;
+        .reco3 h3{
+            background-color: #cbb9a8ff;
+            font-size: 30px;
+            text-align: center;
+            font-family: Gilda Display;
+            color: #1a1d1aff;
+        }
+        .reco3 p{
+            text-align: center;
+            font-size: 15px;
+            font-family: Manrope;
+            font-style: oblique;
+            color: white;
+        }
+    }
+}
+/*Main Pagina recomendacion*/
+
+.formContacto{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .formContacto h2{
+        text-align: center;
+        font-size: 13vh;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: #cbb9a8ff;
+        text-shadow: 1px 1px 2px white;
+    }
+    div{
+        .formContacto label{
+            color: #cbb9a8ff;
+            font-family: Manrope;
+            border-radius: 5%;
+        }
+    }
+}
+
+/*Main Pagina contacto*/
+.footer{
+    background-color: #cbb9a8ff;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a{
+        text-decoration: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        color: #1a1d1aff;
+        transition: 0.3s;
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+    p{
+        color: #1a1d1aff;
+    }
+}
+/*Footer*/

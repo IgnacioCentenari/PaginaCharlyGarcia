@@ -1,0 +1,642 @@
+header {
+  background-color: #cbb9a8ff;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10; }
+  header .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: 0.2s; }
+    header .logo a img {
+      width: 75px;
+      height: 100px;
+      margin-right: 10px; }
+    header .logo h1 {
+      color: #1a1d1aff;
+      font-size: 50px;
+      font-style: italic;
+      font-weight: 400;
+      font-family: ms Madi; }
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    header nav ul li {
+      font-size: 20px;
+      font-style: oblique;
+      font-weight: 300;
+      font-family: manrope;
+      margin: 8px;
+      transition: 0.2s; }
+      header nav ul li a {
+        text-decoration: none;
+        color: #1a1d1aff; }
+
+/*Todo esto de arriba es el header*/
+main .hero {
+  /*background-image: url(../img/Charly\ \ Puchito.jpg);*/
+  width: 100%;
+  height: calc(100vh - 145px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  main .hero div {
+    color: #cbb9a8ff;
+    background-color: transparent;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 100px;
+    font-weight: 200;
+    text-align: center;
+    text-shadow: 1px 1px 2px black; }
+
+main .miniIndex {
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  main .miniIndex .miniCuadro {
+    border: 3px solid #cbb9a8ff;
+    width: 250px;
+    box-shadow: 5px 9px 0px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 5px 9px 0px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 5px 9px 0px 0px rgba(255, 255, 255, 0.75);
+    transition: 1s; }
+    main .miniIndex .miniCuadro img {
+      width: 244px;
+      height: 200px;
+      flex-wrap: wrap; }
+    main .miniIndex .miniCuadro p {
+      text-align: center;
+      font-size: 20px;
+      font-family: Manrope;
+      font-style: oblique;
+      color: white; }
+
+main .miniResumen {
+  border: 3px solid #cbb9a8ff;
+  width: 500px;
+  height: 200px;
+  box-shadow: 5px 9px 0px 0px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 5px 9px 0px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 5px 9px 0px 0px rgba(255, 255, 255, 0.75);
+  transition: 1s; }
+  main .miniResumen h2 {
+    background-color: #cbb9a8ff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gilda Display; }
+  main .miniResumen p {
+    text-align: center;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: Manrope;
+    color: white; }
+
+/*Main de la pagina index*/
+.titHistoria {
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #cbb9a8ff; }
+
+.historia {
+  height: 2500px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .historia .lineaDeTiempo {
+    max-width: 750px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    font-family: "Fira Sans", sans-serif;
+    color: #ffffff; }
+
+/*Main de la pagina historia*/
+div .titDisco {
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #cbb9a8ff; }
+
+.discografiaLayout {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  grid-row-gap: 2em;
+  padding-bottom: 2em;
+  padding-top: 2em; }
+  .discografiaLayout .disco1 {
+    border: 2px solid #cbb9a8ff;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    box-shadow: 5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 5px 6px 0px 0px rgba(255, 255, 255, 0.75); }
+    .discografiaLayout .disco1 .disco1 h3 {
+      background-color: #cbb9a8ff;
+      font-size: 30px;
+      text-align: center;
+      font-family: Gilda Display;
+      color: #1a1d1aff; }
+    .discografiaLayout .disco1 .disco1 p {
+      text-align: center;
+      font-size: 20px;
+      font-family: Manrope;
+      font-style: oblique;
+      color: white; }
+    .discografiaLayout .disco1 .disco1 img {
+      width: 150px;
+      height: 150px; }
+  .discografiaLayout .cancion1 {
+    border: 2px solid #cbb9a8ff;
+    width: 250px;
+    height: 300px;
+    float: left;
+    color: white;
+    background-color: #1a1d1aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    align-self: center;
+    justify-self: flex-end;
+    box-shadow: -5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: -5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: -5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    transition: 1s; }
+    .discografiaLayout .cancion1 a .cancion1 img {
+      width: 150px;
+      height: 150px; }
+    .discografiaLayout .cancion1 .cancion1 h3 {
+      background-color: #cbb9a8ff;
+      font-size: 30px;
+      text-align: center;
+      font-family: Gilda Display;
+      color: #1a1d1aff; }
+    .discografiaLayout .cancion1 .cancion1 p {
+      text-align: center;
+      font-size: 12px;
+      font-family: Manrope;
+      font-style: oblique;
+      color: white; }
+  .discografiaLayout .disco2 {
+    border: 2px solid #cbb9a8ff;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    box-shadow: -5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: -5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: -5px 6px 0px 0px rgba(255, 255, 255, 0.75); }
+    .discografiaLayout .disco2 .disco2 h3 {
+      background-color: #cbb9a8ff;
+      font-size: 30px;
+      text-align: center;
+      font-family: Gilda Display;
+      color: #1a1d1aff; }
+    .discografiaLayout .disco2 .disco2 p {
+      text-align: center;
+      font-size: 20px;
+      font-family: Manrope;
+      font-style: oblique;
+      color: white; }
+    .discografiaLayout .disco2 .disco2 img {
+      width: 150px;
+      height: 150px; }
+  .discografiaLayout .cancion2 {
+    border: 2px solid #cbb9a8ff;
+    width: 250px;
+    height: 300px;
+    float: right;
+    color: white;
+    background-color: #1a1d1aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    align-self: center;
+    justify-self: flex-start;
+    box-shadow: 5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    transition: 1s; }
+    .discografiaLayout .cancion2 a .cancion2 img {
+      width: 150px;
+      height: 150px; }
+    .discografiaLayout .cancion2 .cancion2 h3 {
+      background-color: #cbb9a8ff;
+      font-size: 30px;
+      text-align: center;
+      font-family: Gilda Display;
+      color: #1a1d1aff; }
+    .discografiaLayout .cancion2 .cancion2 p {
+      text-align: center;
+      font-size: 12px;
+      font-family: Manrope;
+      font-style: oblique;
+      color: white; }
+  .discografiaLayout .disco3 {
+    border: 2px solid #cbb9a8ff;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    box-shadow: 5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 5px 6px 0px 0px rgba(255, 255, 255, 0.75); }
+    .discografiaLayout .disco3 .disco3 h3 {
+      background-color: #cbb9a8ff;
+      font-size: 30px;
+      text-align: center;
+      font-family: Gilda Display;
+      color: #1a1d1aff; }
+    .discografiaLayout .disco3 .disco3 p {
+      text-align: center;
+      font-size: 20px;
+      font-family: Manrope;
+      font-style: oblique;
+      color: white; }
+    .discografiaLayout .disco3 .disco3 img {
+      width: 150px;
+      height: 150px; }
+  .discografiaLayout .cancion3 {
+    border: 2px solid #cbb9a8ff;
+    width: 250px;
+    height: 300px;
+    float: left;
+    color: white;
+    background-color: #1a1d1aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    align-self: center;
+    justify-self: flex-end;
+    box-shadow: -5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: -5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: -5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    transition: 1s; }
+    .discografiaLayout .cancion3 a .cancion3 img {
+      width: 150px;
+      height: 150px; }
+    .discografiaLayout .cancion3 .cancion3 h3 {
+      background-color: #cbb9a8ff;
+      font-size: 30px;
+      text-align: center;
+      font-family: Gilda Display;
+      color: #1a1d1aff; }
+    .discografiaLayout .cancion3 .cancion3 p {
+      text-align: center;
+      font-size: 12px;
+      font-family: Manrope;
+      font-style: oblique;
+      color: white; }
+  .discografiaLayout .disco4 {
+    border: 2px solid #cbb9a8ff;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    box-shadow: -5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: -5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: -5px 6px 0px 0px rgba(255, 255, 255, 0.75); }
+    .discografiaLayout .disco4 .disco4 h3 {
+      background-color: #cbb9a8ff;
+      font-size: 30px;
+      text-align: center;
+      font-family: Gilda Display;
+      color: #1a1d1aff; }
+    .discografiaLayout .disco4 .disco4 p {
+      text-align: center;
+      font-size: 20px;
+      font-family: Manrope;
+      font-style: oblique;
+      color: white; }
+    .discografiaLayout .disco4 .disco4 img {
+      width: 150px;
+      height: 150px; }
+  .discografiaLayout .cancion4 {
+    border: 2px solid #cbb9a8ff;
+    width: 250px;
+    height: 300px;
+    float: right;
+    color: white;
+    background-color: #1a1d1aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    align-self: center;
+    justify-self: flex-start;
+    box-shadow: 5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    transition: 1s; }
+    .discografiaLayout .cancion4 a .cancion4 img {
+      width: 150px;
+      height: 150px; }
+    .discografiaLayout .cancion4 .cancion4 h3 {
+      background-color: #cbb9a8ff;
+      font-size: 30px;
+      text-align: center;
+      font-family: Gilda Display;
+      color: #1a1d1aff; }
+    .discografiaLayout .cancion4 .cancion4 p {
+      text-align: center;
+      font-size: 12px;
+      font-family: Manrope;
+      font-style: oblique;
+      color: white; }
+  .discografiaLayout .disco5 {
+    border: 2px solid #cbb9a8ff;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    box-shadow: 5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 5px 6px 0px 0px rgba(255, 255, 255, 0.75); }
+    .discografiaLayout .disco5 .disco5 h3 {
+      background-color: #cbb9a8ff;
+      font-size: 30px;
+      text-align: center;
+      font-family: Gilda Display;
+      color: #1a1d1aff; }
+    .discografiaLayout .disco5 .disco5 p {
+      text-align: center;
+      font-size: 20px;
+      font-family: Manrope;
+      font-style: oblique;
+      color: white; }
+    .discografiaLayout .disco5 .disco5 img {
+      width: 150px;
+      height: 150px; }
+  .discografiaLayout .cancion5 {
+    border: 2px solid #cbb9a8ff;
+    width: 250px;
+    height: 300px;
+    float: right;
+    color: white;
+    background-color: #1a1d1aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    align-self: center;
+    justify-self: flex-end;
+    box-shadow: -5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: -5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: -5px 6px 0px 0px rgba(255, 255, 255, 0.75);
+    transition: 1s; }
+    .discografiaLayout .cancion5 a .cancion5 img {
+      width: 150px;
+      height: 150px; }
+    .discografiaLayout .cancion5 .cancion5 h3 {
+      background-color: #cbb9a8ff;
+      font-size: 30px;
+      text-align: center;
+      font-family: Gilda Display;
+      color: #1a1d1aff; }
+  .discografiaLayout .cancion5 p {
+    text-align: center;
+    font-size: 12px;
+    font-family: Manrope;
+    font-style: oblique;
+    color: white; }
+
+/*Main de la pagina discografia*/
+.titAnecdotas {
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #cbb9a8ff; }
+
+.anecdotas {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column; }
+  .anecdotas .anec1 {
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    border: 2px solid #cbb9a8ff;
+    color: white;
+    margin-bottom: 50px;
+    transition: 1s; }
+    .anecdotas .anec1 .anec1 h3 {
+      background-color: #cbb9a8ff;
+      font-size: 30px;
+      text-align: center;
+      font-family: Gilda Display;
+      color: #1a1d1aff; }
+    .anecdotas .anec1 .anec1 p {
+      text-align: center;
+      font-size: 20px;
+      font-family: Manrope;
+      font-style: oblique;
+      color: white; }
+    .anecdotas .anec1 .anec1 img {
+      width: 300px;
+      height: 200px; }
+  .anecdotas .anec2 {
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    border: 2px solid #cbb9a8ff;
+    color: white;
+    margin-bottom: 50px;
+    transition: 1s; }
+    .anecdotas .anec2 .anec2 h3 {
+      background-color: #cbb9a8ff;
+      font-size: 30px;
+      text-align: center;
+      font-family: Gilda Display;
+      color: #1a1d1aff; }
+    .anecdotas .anec2 .anec2 p {
+      text-align: center;
+      font-size: 20px;
+      font-family: Manrope;
+      font-style: oblique;
+      color: white; }
+    .anecdotas .anec2 .anec2 img {
+      width: 250px;
+      height: 250px; }
+  .anecdotas .anec3 {
+    width: 600px;
+    height: 700px;
+    text-align: center;
+    border: 2px solid #cbb9a8ff;
+    color: white;
+    margin-bottom: 50px;
+    transition: 1s; }
+    .anecdotas .anec3 .anec3 h3 {
+      background-color: #cbb9a8ff;
+      font-size: 30px;
+      text-align: center;
+      font-family: Gilda Display;
+      color: #1a1d1aff; }
+    .anecdotas .anec3 .anec3 p {
+      text-align: center;
+      font-size: 15px;
+      font-family: Manrope;
+      font-style: oblique;
+      color: white; }
+    .anecdotas .anec3 .anec3 img {
+      width: 300px;
+      height: 200px; }
+
+/*Main de la pagina anecdotas*/
+.titRecom {
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #cbb9a8ff; }
+
+.recomendacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .recomendacion .reco1 {
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    border: 2px solid #cbb9a8ff;
+    color: white;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 1s; }
+    .recomendacion .reco1 .reco1 img {
+      width: 200px;
+      height: 200px; }
+    .recomendacion .reco1 .reco1 h3 {
+      background-color: #cbb9a8ff;
+      font-size: 30px;
+      text-align: center;
+      font-family: Gilda Display;
+      color: #1a1d1aff; }
+    .recomendacion .reco1 .reco1 p {
+      text-align: center;
+      font-size: 15px;
+      font-family: Manrope;
+      font-style: oblique;
+      color: white; }
+  .recomendacion .reco2 {
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    border: 2px solid #cbb9a8ff;
+    color: white;
+    margin-bottom: 50px;
+    transition: 1s; }
+    .recomendacion .reco2 .reco2 h3 {
+      background-color: #cbb9a8ff;
+      font-size: 30px;
+      text-align: center;
+      font-family: Gilda Display;
+      color: #1a1d1aff; }
+    .recomendacion .reco2 .reco2 p {
+      text-align: center;
+      font-size: 15px;
+      font-family: Manrope;
+      font-style: oblique;
+      color: white; }
+  .recomendacion .reco3 {
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    border: 2px solid #cbb9a8ff;
+    color: white;
+    margin-bottom: 50px;
+    transition: 1s; }
+    .recomendacion .reco3 .reco3 h3 {
+      background-color: #cbb9a8ff;
+      font-size: 30px;
+      text-align: center;
+      font-family: Gilda Display;
+      color: #1a1d1aff; }
+    .recomendacion .reco3 .reco3 p {
+      text-align: center;
+      font-size: 15px;
+      font-family: Manrope;
+      font-style: oblique;
+      color: white; }
+
+/*Main Pagina recomendacion*/
+.formContacto {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .formContacto .formContacto h2 {
+    text-align: center;
+    font-size: 13vh;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #cbb9a8ff;
+    text-shadow: 1px 1px 2px white; }
+  .formContacto div .formContacto label {
+    color: #cbb9a8ff;
+    font-family: Manrope;
+    border-radius: 5%; }
+
+/*Main Pagina contacto*/
+.footer {
+  background-color: #cbb9a8ff;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .footer a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: #1a1d1aff;
+    transition: 0.3s; }
+    .footer a img {
+      width: 20px;
+      height: 20px; }
+  .footer p {
+    color: #1a1d1aff; }
+
+/*Footer*/
