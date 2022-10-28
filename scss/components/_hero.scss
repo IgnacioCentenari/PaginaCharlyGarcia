@@ -1,0 +1,45 @@
+.hero{
+    background-image: url(../img/CharlyPuchito.jpg);
+    width: 100%;
+    height: calc(100vh - 145px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width:890px){
+        .hero{
+            height: 600px;
+        }
+    }
+    div{
+        color: #cbb9a8ff;
+        background-color: transparent;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 100px;
+        font-weight: 200;
+        text-align: center; 
+        text-shadow: 1px 1px 2px black;
+        @media screen and (max-width:978px){
+            &{
+                font-size: 80px;
+            }
+        }
+        @media screen and (max-width:782px){
+            &{
+                font-size: 60px;
+            }
+        }
+        @media screen and (max-width:587px){
+            &{
+                font-size: 40px;
+            }
+        }
+        @media screen and (max-width:392px){
+            &{
+                font-size: 30px;
+            }
+        }
+    }
+}

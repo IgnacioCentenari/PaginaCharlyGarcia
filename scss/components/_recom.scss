@@ -1,0 +1,138 @@
+.titRecom{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #cbb9a8ff;
+    @media screen and (max-width:620px) {
+        &{
+            font-size: 80px;
+        }
+    }
+    @media screen and (max-width:496px) {
+        &{
+            font-size: 60px;
+        }
+    }
+    @media screen and (max-width:372px) {
+        &{
+            font-size: 50px;
+        }
+    }
+}
+.recomendacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.reco1{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    border: 2px solid #cbb9a8ff;
+    color: white;
+    margin-bottom: 50px;
+    transition: 1s;
+    @media screen and (max-width:399px){
+        &{
+            width: 330px;
+        }
+    }
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    h3{
+        background-color: #cbb9a8ff;
+        font-size: 30px;
+        text-align: center;
+        font-family: Gilda Display;
+        color: #1a1d1aff;
+    }
+    p{
+        text-align: center;
+        font-size: 15px;
+        font-family: Manrope;
+        font-style: oblique;
+        color: white;
+    }
+    @media screen and (min-width: 1024px){
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+}
+.reco2{
+    text-align: center;
+    height: 500px;
+    width: 400px;
+    border: 2px solid #cbb9a8ff;
+    color: white;
+    margin-bottom: 50px;
+    transition: 1s;
+    @media screen and (max-width:399px){
+        &{
+            width: 330px;
+        }
+    }
+    img{
+        width: 100%;
+        height: 200px;
+    }
+    h3{
+        background-color: #cbb9a8ff;
+        font-size: 30px;
+        text-align: center;
+        font-family: Gilda Display;
+        color: #1a1d1aff;
+    }
+    p{
+        text-align: center;
+        font-size: 18px;
+        font-family: Manrope;
+        font-style: oblique;
+        color: white;
+    }
+    @media screen and (min-width: 1024px){
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+}
+.reco3{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    border: 2px solid #cbb9a8ff;
+    color: white;
+    margin-bottom: 50px;
+    transition: 1s;
+    @media screen and (max-width:399px){
+        &{
+            width: 330px;
+        }
+    }
+    img{
+        width: 200px;
+        height: 200px;
+    }  
+    h3{
+        background-color: #cbb9a8ff;
+        font-size: 30px;
+        text-align: center;
+        font-family: Gilda Display;
+        color: #1a1d1aff;
+    }
+    p{
+        text-align: center;
+        font-size: 15px;
+        font-family: Manrope;
+        font-style: oblique;
+        color: white;
+    }
+    @media screen and (min-width: 1024px){
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+}

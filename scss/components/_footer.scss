@@ -1,0 +1,38 @@
+.footer{
+    background-color: #cbb9a8ff;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    @media screen and (max-width:530px) {
+        &{
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+}
+a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: #1a1d1aff;
+    transition: 0.3s;
+    img{
+        width: 20px;
+        height: 20px;
+    }
+    @media screen and (min-width: 1024px){
+        &:hover{
+            transform: scale(1.25);
+            color: #1a1d1aff;
+        }
+    }
+}
+p{
+    color: #1a1d1aff;
+}
