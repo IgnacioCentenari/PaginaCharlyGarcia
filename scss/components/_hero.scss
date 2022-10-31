@@ -5,16 +5,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(flex,center,center);
     @media screen and (max-width:890px){
         .hero{
             height: 600px;
         }
     }
     div{
-        color: #cbb9a8ff;
+        color: $color-secundario;
         background-color: transparent;
         font-family: 'Barlow Condensed', sans-serif;
         font-size: 100px;

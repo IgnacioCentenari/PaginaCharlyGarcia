@@ -2,13 +2,11 @@
     text-align: center;
     font-size: 100px;
     font-family: 'Barlow Condensed', sans-serif;
-    color: #cbb9a8ff;
+    color: $color-secundario;
 }
 .historia{
     height: 2500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(flex,center,center);
     @media screen and (max-width:742px){
         &{
             height: 2600px;
@@ -88,7 +86,7 @@
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
     font-family: "Fira Sans", sans-serif;
-    color: #ffffff;
+    color: $color-terciario;
     @media screen and (max-width:423px) {
         &{
             width: 100vw;
@@ -112,7 +110,7 @@
 .lineaCuadro {
     padding: 1.5em;
     background: #1a1d1aff;
-    box-shadow: 0 0 5px #cbb9a8ff;
+    box-shadow: 0 0 5px $color-secundario;
     border-radius: 10px;
     transition: 1s;
     @media screen and (min-width: 1024px){
@@ -127,30 +125,30 @@
 .lineaFecha{
     font-family: Manrope;
     font-style: oblique;
-    color: white;
+    color: $color-terciario;
 }
 .lineaFechaDer {
     text-align: right;
     font-family: Manrope;
     font-style: oblique;
-    color: white;
+    color: $color-terciario;
 }
 .lineaTitulo {
     margin: 0;
     font-size: 1.15em;
     font-weight: bold;
     font-family: 'Barlow Condensed', sans-serif;
-    color: #cbb9a8ff;
+    color: $color-secundario;
 }
 .lineaParrafo {
     line-height: 1.5;
     font-family: Manrope;
     font-style: oblique;
-    color: white;
+    color: $color-terciario;
 }
 .lineaMedio {
     position: relative;
-    background: #cbb9a8ff;
+    background: $color-secundario;
 }
 .lineaPunto {
     position: absolute;
@@ -159,6 +157,6 @@
     transform: translateX(-50%);
     width: 15px;
     height: 15px;
-    background: #cbb9a8ff;
+    background: $color-secundario;
     border-radius: 50%;
 }

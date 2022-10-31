@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Gilda+Display&family=Manrope:wght@300;600;800&family=Ms+Madi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Gilda+Display&family=Manrope:wght@300;600;800&family=Ms+Madi&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -286,7 +287,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 3px 1fr;
   font-family: "Fira Sans", sans-serif;
-  color: #ffffff; }
+  color: white; }
   @media screen and (max-width: 423px) {
     .lineaDeTiempo {
       width: 100vw; } }
@@ -439,6 +440,9 @@ header {
   -webkit-box-shadow: -5px 6px 0px 0px rgba(255, 255, 255, 0.75);
   -moz-box-shadow: -5px 6px 0px 0px rgba(255, 255, 255, 0.75);
   transition: 1s; }
+  @media screen and (min-width: 1024px) {
+    .cancion1:hover {
+      transform: scale(1.25); } }
   .cancion1 img {
     width: 150px;
     height: 150px; }
@@ -454,9 +458,6 @@ header {
     font-family: Manrope;
     font-style: oblique;
     color: white; }
-  @media screen and (min-width: 1024px) {
-    .cancion1:hover {
-      transform: scale(1.25); } }
 
 .disco2 {
   border: 2px solid #cbb9a8ff;
@@ -975,6 +976,9 @@ header {
   color: white;
   margin-bottom: 50px;
   transition: 1s; }
+  @media screen and (min-width: 1024px) {
+    .reco1:hover {
+      transform: scale(1.05); } }
   @media screen and (max-width: 399px) {
     .reco1 {
       width: 330px; } }
@@ -993,9 +997,6 @@ header {
     font-family: Manrope;
     font-style: oblique;
     color: white; }
-  @media screen and (min-width: 1024px) {
-    .reco1:hover {
-      transform: scale(1.05); } }
 
 .reco2 {
   text-align: center;
@@ -1005,6 +1006,9 @@ header {
   color: white;
   margin-bottom: 50px;
   transition: 1s; }
+  @media screen and (min-width: 1024px) {
+    .reco2:hover {
+      transform: scale(1.05); } }
   @media screen and (max-width: 399px) {
     .reco2 {
       width: 330px; } }
@@ -1023,9 +1027,6 @@ header {
     font-family: Manrope;
     font-style: oblique;
     color: white; }
-  @media screen and (min-width: 1024px) {
-    .reco2:hover {
-      transform: scale(1.05); } }
 
 .reco3 {
   text-align: center;
@@ -1035,6 +1036,9 @@ header {
   color: white;
   margin-bottom: 50px;
   transition: 1s; }
+  @media screen and (min-width: 1024px) {
+    .reco3:hover {
+      transform: scale(1.05); } }
   @media screen and (max-width: 399px) {
     .reco3 {
       width: 330px; } }
@@ -1053,9 +1057,6 @@ header {
     font-family: Manrope;
     font-style: oblique;
     color: white; }
-  @media screen and (min-width: 1024px) {
-    .reco3:hover {
-      transform: scale(1.05); } }
 
 .formContacto {
   height: 75vh;
@@ -1097,7 +1098,7 @@ header {
       align-items: center;
       flex-direction: column; } }
 
-a {
+.aFooter {
   text-decoration: none;
   display: flex;
   justify-content: space-around;
@@ -1105,11 +1106,11 @@ a {
   flex-direction: column;
   color: #1a1d1aff;
   transition: 0.3s; }
-  a img {
+  .aFooter img {
     width: 20px;
     height: 20px; }
   @media screen and (min-width: 1024px) {
-    a:hover {
+    .aFooter:hover {
       transform: scale(1.25);
       color: #1a1d1aff; } }
 

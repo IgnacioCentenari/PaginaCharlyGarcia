@@ -1,0 +1,9 @@
+$color-principal: #1a1d1aff;
+$color-secundario: #cbb9a8ff;
+$color-terciario: white;
+
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}

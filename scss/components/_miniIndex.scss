@@ -1,13 +1,9 @@
 .miniIndex{
     height: 400px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include flex(flex,space-around,center);
     @media screen and (max-width:782px){
         &{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex(flex,center,center);
             flex-direction: column;
             height: 600px;
         }
@@ -19,7 +15,7 @@
     }
 }
 .miniCuadro {
-    border: 3px solid #cbb9a8ff;
+    border: 3px solid $color-secundario;
     width: 250px;
     box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
     -webkit-box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
@@ -41,7 +37,7 @@
         font-size: 20px;
         font-family: Manrope;
         font-style: oblique;
-        color: white;
+        color: $color-terciario;
         @media screen and (max-width:782px){
             &{
                 font-size: 15px;
@@ -55,7 +51,7 @@
     }
 }
 .miniResumen{
-    border: 3px solid #cbb9a8ff;
+    border: 3px solid $color-secundario;
     width: 500px;
     height: 200px;
     box-shadow: 5px 9px 0px 0px rgba(255,255,255,0.75);
@@ -69,7 +65,7 @@
         }
     }
     h2{
-        background-color: #cbb9a8ff;
+        background-color: $color-secundario;
         font-size: 30px;
         text-align: center;
         font-family: Gilda Display;
@@ -79,7 +75,7 @@
         font-size: 15px;
         font-style: oblique;
         font-family: Manrope;
-        color: white;
+        color: $color-terciario;
     }
     @media screen and (min-width: 1024px){
         &:hover{
