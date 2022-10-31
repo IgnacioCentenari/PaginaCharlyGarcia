@@ -9,21 +9,21 @@
             flex-direction: column;
         }
     }
-}
-.aFooter{
-    text-decoration: none;
-    @include flex(flex,space-around,center);
-    flex-direction: column;
-    color: $color-principal;
-    transition: 0.3s;
-    img{
-        width: 20px;
-        height: 20px;
-    }
-    @media screen and (min-width: 1024px){
-        &:hover{
-            transform: scale(1.25);
-            color: $color-principal;
+    a{
+        text-decoration: none;
+        @include flex(flex,space-around,center);
+        flex-direction: column;
+        color: $color-principal;
+        transition: 0.3s;
+        img{
+            width: 20px;
+            height: 20px;
+        }
+        @media screen and (min-width: 1024px){
+            &:hover{
+                transform: scale(1.25);
+                color: $color-principal;
+            }
         }
     }
 }
